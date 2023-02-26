@@ -11,7 +11,7 @@ import SwiftUI
 struct LoteriaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView(viewModel: LaunchViewModel())
         }
     }
 }
